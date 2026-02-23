@@ -1,4 +1,4 @@
-#  Simulation of a Warehouse Logistic System with Multi-Level Picking
+# 🏭 Simulation of a Warehouse Logistic System with Multi-Level Picking
 
 > Bachelor's Thesis in Industrial Engineering — University of Genova, Scuola Politecnica (DIME)
 >
@@ -6,7 +6,7 @@
 
 ---
 
-##  Overview
+## 📋 Overview
 
 This repository contains the simulation model developed as part of the Bachelor's thesis in Industrial Engineering.
 
@@ -22,13 +22,13 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 
 ---
 
-##  Repository Structure
+## 🗂️ Repository Structure
 
 ```
- multilevel-picking-simulation
- ┣  simulazione_picking.alp   # AnyLogic model (DES)
- ┣ Raqaq_Sohayb_L_Gest.pdf  # Full thesis document
- ┗ README.md
+📦 multilevel-picking-simulation
+ ┣ 📄 simulazione_picking.alp   # AnyLogic model (DES)
+ ┣ 📄 Raqaq_Sohayb_L_Gest.pdf  # Full thesis document
+ ┗ 📄 README.md
 ```
 
 ---
@@ -43,32 +43,33 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 | **Recommended RAM** | 8 GB or more |
 | **AnyLogic Libraries** | Process Modeling Library (PML), Material Handling Library (MHL) |
 
->  The `.alp` file can only be opened with AnyLogic. The **free PLE version** is sufficient to open and run the model, but may have limitations on the number of simulated agents.
+> ⚠️ The `.alp` file can only be opened with AnyLogic. The **free PLE version** is sufficient to open and run the model, but may have limitations on the number of simulated agents.
 
 ---
 
-##  How to Run the Model
+## ▶️ How to Run the Model
 
 1. **Download and install AnyLogic** from the official website: [https://www.anylogic.com/downloads/](https://www.anylogic.com/downloads/)
 
-2. **Clone the repository** or download the `.alp` file directly:
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   ```
+2. **Download the full project folder** by clicking the green **Code** button on the repository page, then **Download ZIP**
 
-3. **Open AnyLogic** and go to `File → Open` to load the file `simulazione_picking.alp`
+   > ⚠️ It is important to download the entire ZIP and not just the `.alp` file. The project folder contains all the necessary files (3D assets, simulation data, etc.) for the model to run correctly, including the 3D visualization.
 
-4. **Select the dispatching policy** inside the `Retrieve` block of the Material Handling Library:
+3. **Extract the ZIP** to a folder on your PC
+
+4. **Open AnyLogic** and go to `File → Open` to load the file `simulazione_picking.alp` from the extracted folder
+
+5. **Select the dispatching policy** inside the `Retrieve` block of the Material Handling Library:
    - `Nearest to agent`
    - `Shortest path to pickup location`
 
-5. **Run the simulation** by pressing  in the toolbar
+6. **Run the simulation** by pressing ▶️ in the toolbar
 
-6. **Monitor the KPIs** directly in the model's graphical interface (AGV stack chart, lift time plots, throughput time histograms)
+7. **Monitor the KPIs** directly in the model's graphical interface (AGV stack chart, lift time plots, throughput time histograms)
 
 ---
 
-##  Model Description
+## 🏗️ Model Description
 
 ### Warehouse Layout
 
@@ -115,13 +116,13 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 
 ---
 
-##  Reference
+## 📄 Reference
 
 The full thesis, including literature review, methodology, and result analysis, is available in the file `Raqaq_Sohayb_L_Gest.pdf`.
 
 ---
 
-##  Author
+## 👤 Author
 
 **Sohayb Raqaq**
 Bachelor's Degree in Industrial Engineering
