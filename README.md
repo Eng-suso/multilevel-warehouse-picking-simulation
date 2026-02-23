@@ -1,4 +1,4 @@
-# 🏭 Simulation of a Warehouse Logistic System with Multi-Level Picking
+# Simulation of a Warehouse Logistic System with Multi-Level Picking
 
 > Bachelor's Thesis in Industrial Engineering — University of Genova, Scuola Politecnica (DIME)
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 This repository contains the simulation model developed as part of the Bachelor's thesis in Industrial Engineering.
 
@@ -22,10 +22,10 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
-📦 multilevel-picking-simulation
+ multilevel-picking-simulation
  ┣ 📄 simulazione_picking.alp   # AnyLogic model (DES)
  ┣ 📄 Raqaq_Sohayb_L_Gest.pdf  # Full thesis document
  ┗ 📄 README.md
@@ -33,7 +33,7 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 
 ---
 
-## 🔧 System Requirements
+##  System Requirements
 
 | Requirement | Details |
 |---|---|
@@ -43,17 +43,17 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 | **Recommended RAM** | 8 GB or more |
 | **AnyLogic Libraries** | Process Modeling Library (PML), Material Handling Library (MHL) |
 
-> ⚠️ The `.alp` file can only be opened with AnyLogic. The **free PLE version** is sufficient to open and run the model, but may have limitations on the number of simulated agents.
+>  The `.alp` file can only be opened with AnyLogic. The **free PLE version** is sufficient to open and run the model, but may have limitations on the number of simulated agents.
 
 ---
 
-## ▶️ How to Run the Model
+## How to Run the Model
 
 1. **Download and install AnyLogic** from the official website: [https://www.anylogic.com/downloads/](https://www.anylogic.com/downloads/)
 
 2. **Download the full project folder** by clicking the green **Code** button on the repository page, then **Download ZIP**
 
-   > ⚠️ It is important to download the entire ZIP and not just the `.alp` file. The project folder contains all the necessary files (3D assets, simulation data, etc.) for the model to run correctly, including the 3D visualization.
+   > It is important to download the entire ZIP and not just the `.alp` file. The project folder contains all the necessary files (3D assets, simulation data, etc.) for the model to run correctly, including the 3D visualization.
 
 3. **Extract the ZIP** to a folder on your PC
 
@@ -63,13 +63,13 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
    - `Nearest to agent`
    - `Shortest path to pickup location`
 
-6. **Run the simulation** by pressing ▶️ in the toolbar
+6. **Run the simulation** by pressing  in the toolbar
 
 7. **Monitor the KPIs** directly in the model's graphical interface (AGV stack chart, lift time plots, throughput time histograms)
 
 ---
 
-## 🏗️ Model Description
+##  Model Description
 
 ### Warehouse Layout
 
@@ -90,7 +90,7 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 
 ---
 
-## 📊 KPIs Analyzed
+##  KPIs Analyzed
 
 | KPI | Description |
 |---|---|
@@ -102,7 +102,7 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | KPI | Shortest Path | Nearest to Agent | Best |
 |---|---|---|---|
@@ -116,13 +116,13 @@ The study analyzes an **automated four-level warehouse** using **Discrete Event 
 
 ---
 
-## 📄 Reference
+## Reference
 
 The full thesis, including literature review, methodology, and result analysis, is available in the file `Raqaq_Sohayb_L_Gest.pdf`.
 
 ---
 
-## 👤 Author
+## Author
 
 **Sohayb Raqaq**
 Bachelor's Degree in Industrial Engineering
