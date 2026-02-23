@@ -1,6 +1,6 @@
 # Simulation of a Warehouse Logistic System with Multi-Level Picking
 
-> Bachelor's Thesis in Industrial Engineering — University of Genova, Scuola Politecnica (DIME)
+> Bachelor's Thesis in Management Engineering — University of Genova, Scuola Politecnica (DIME)
 >
 > **Author:** Sohayb Raqaq — **Supervisor:** Prof. Enrico Zero — **Year:** February 2026
 
@@ -125,7 +125,7 @@ The full thesis, including literature review, methodology, and result analysis, 
 ## Author
 
 **Sohayb Raqaq**
-Bachelor's Degree in Industrial Engineering
+Bachelor's Degree in Management Engineering
 University of Genova — Scuola Politecnica (DIME)
 February 2026
 
